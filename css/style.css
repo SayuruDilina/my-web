@@ -1,0 +1,20 @@
+body{
+    background-color: pink;
+}
+ p{
+   font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.box01 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: fixed; /* Change to fixed positioning */
+    bottom: 50px;; /* Position at the bottom */
+    right: 5px;; /* Position at the left */
+    z-index: 1; /* Ensure it is above the background (use positive value) */
+    border-radius: 50%; 
+}
